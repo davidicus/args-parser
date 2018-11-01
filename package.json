@@ -1,16 +1,16 @@
 {
-  "name": "args-parser",
+  "name": "argz-parser",
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
-  "repository": "davidicus/args-parser",
+  "repository": "davidicus/argz-parser",
   "keywords": [
     "files"
   ],
   "bugs": {
-    "url": "https://github.com/davidicus/args-parser/issues"
+    "url": "https://github.com/davidicus/argz-parser/issues"
   },
-  "homepage": "https://github.com/davidicus/args-parser#readme",
+  "homepage": "https://github.com/davidicus/argz-parser#readme",
   "author": "David Conner <david@david-conner.com> (http://david-conner.com)",
   "engines": {
     "node": ">=8"
