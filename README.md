@@ -1,4 +1,4 @@
-# Args-Parser [![Build Status](https://travis-ci.org/davidicus/args-parser.svg?branch=master)](https://travis-ci.org/davidicus/args-parser)
+# Argz-Parser [![Build Status](https://travis-ci.org/davidicus/argz-parser.svg?branch=master)](https://travis-ci.org/davidicus/argz-parser)
 
 A utility module used by CLI tools for parsing arguments. Returns an array of corresponding actions to be taken.
 
