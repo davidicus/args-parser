@@ -59,22 +59,22 @@ module.exports = {
 Install module by running
 
 ```
-$ yarn add args-parser
+$ yarn add argz-parser
 ```
 
 or
 
 ```
-$ npm -i args-parser
+$ npm -i argz-parser
 ```
 
-Then call args-parser passing in the argument list and the config file. This function will return a promise that resolves into an array of string names representing the actions to be taken.
+Then call argz-parser passing in the argument list and the config file. This function will return a promise that resolves into an array of string names representing the actions to be taken.
 
 ```
 "use strict";
 
 const path = require("path");
-const { argsParser } = require("./argsParser");
+const argzParser = require("argz-parser");
 const { init } = require("./lib/dwFunctions");
 const config = require("./.dwconfig.js");
 
@@ -82,7 +82,7 @@ module.exports = args => {
   args = typeof args == "object" ? args : false;
 
   if (args) {
-    argsParser(args, config).then(args => {
+    argzParser(args, config).then(args => {
       args.map(arg => {
         switch (arg) {
           case "init":
